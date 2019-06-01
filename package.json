@@ -1,6 +1,6 @@
 {
   "name": "ditor",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Flexible Dependency injection mechanism",
   "main": "index.js",
   "directories": {
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/danieldt232/ditor#readme",
   "devDependencies": {
+    "express": "^4.17.1",
     "mocha": "^6.1.4",
     "should": "^13.2.3",
     "should-sinon": "0.0.6",
