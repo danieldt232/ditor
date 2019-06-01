@@ -1,1 +1,1 @@
-module.exports = require("./fast-pass");
+module.exports = require("./ditor");

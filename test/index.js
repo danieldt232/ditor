@@ -2,12 +2,12 @@ require('should');
 const sinon = require('sinon');
 require('should-sinon');
 
-const fastPass = require('../fast-pass');
-const { Injector } = require('../fast-pass');
+const ditor = require('../ditor');
+const { Injector } = require('../ditor');
 
-describe("fast-pass", () => {
-  it( "Exists", () => should(fastPass).be.an.Object() );
-  it( "Contains as Injector funciton", () => should(fastPass.Injector).be.a.Function() )
+describe("ditor", () => {
+  it( "Exists", () => should(ditor).be.an.Object() );
+  it( "Contains as Injector funciton", () => should(ditor.Injector).be.a.Function() )
   describe( "Injector", () => {
     it( "Can be constructed", () => {
       var injector = new Injector();

@@ -1,5 +1,5 @@
 {
-  "name": "fast-pass",
+  "name": "ditor",
   "version": "0.0.1",
   "description": "Flexible Dependency injection mechanism",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danieldt232/fast-pass.git"
+    "url": "git+https://github.com/danieldt232/ditor.git"
   },
   "keywords": [
     "dependency",
@@ -21,9 +21,9 @@
   "author": "Daniel Diamant",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/danieldt232/fast-pass/issues"
+    "url": "https://github.com/danieldt232/ditor/issues"
   },
-  "homepage": "https://github.com/danieldt232/fast-pass#readme",
+  "homepage": "https://github.com/danieldt232/ditor#readme",
   "devDependencies": {
     "mocha": "^6.1.4",
     "should": "^13.2.3",
