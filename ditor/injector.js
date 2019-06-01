@@ -4,7 +4,7 @@ module.exports = class Injector{
     this.invoke = this.invoke.bind(this);
   }
   invoke(innerFunction){
-    innerFunction(this, ...this.dependencies);
+    return innerFunction(this, ...this.dependencies);
   }
   branch(...extraDependencies){
     return new Injector(...this.dependencies, ...extraDependencies);

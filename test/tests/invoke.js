@@ -9,6 +9,13 @@ it("Invokes inner functions", () => {
   callback.should.be.calledOnce();
 })
 
+it("Returns the value from inner function", () => {
+  var { invoke } = new Injector();
+  var callback = () => 1;
+  var res = invoke(callback);
+  should(res).be.equals(1);
+})
+
 it("Passes injector (self) as first param", () => {
   var injector = new Injector();
   var callback = sinon.spy();
