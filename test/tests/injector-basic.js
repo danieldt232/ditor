@@ -10,6 +10,11 @@ it( "Contains an .invoke() function", () => {
   should(injector.invoke).be.a.Function();
 } )
 
+it( "Contains an .construct() function", () => {
+  var injector = new Injector();
+  should(injector.construct).be.a.Function();
+} )
+
 it( "Contains a .branch() function", () => {
   var injector = new Injector();
   should(injector.branch).be.a.Function();
