@@ -27,7 +27,7 @@
   "homepage": "https://github.com/danieldt232/ditor#readme",
   "devDependencies": {
     "express": "^4.17.1",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "should": "^13.2.3",
     "should-sinon": "0.0.6",
     "sinon": "^7.3.2"
